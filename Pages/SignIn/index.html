@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <title>Document</title>
+     
+</head>
+<body>
+     <!-- HEADER POINT -->
+     
+     <div class="header">
+          <div class="leftHeader">
+               <img src="../../LoGo.svg" alt="" srcset="" width="150px" />
+          </div>
+          <div class="rightHeader">
+               <a href=""><li>food Menu</li></a>
+               <a href=""><li>Events</li></a>
+               <a href="../HotelBooking/index.html"><li>Hotel Booking</li></a>
+          </div>
+     </div>
+     
+     <!-- HEADER POINT ENDS -->
+     
+     <div class="backGround">
+          <div class="signUpTitle">Welcome Back TO Aditya's Grill</div>
+          
+          <div class="overLay">
+            <div class="mainItemsoverlay">
+                 <input
+                 type="text"
+                 id="UserId"
+                 class="inputCrediantials"
+                 placeholder="Email or phone no or UserId "
+                 onchange="(function(e){logId(e)})(event)"
+                 />
+                 <br />
+                 <input
+                 type="password"
+                 id="UserPassword"
+                 class="inputCrediantials"
+                 onchange="(function(e){logPass(e)})(event)"
+
+                 placeholder="Password"
+                 />
+               </div>
+               <button class="signUp-signUp" onclick="submitData()">
+                    SignUp
+               </button>
+               <button class="cancil-signUp">cancil</button>
+          </div>
+     </div>
+</body>
+<script src="main.js"></script>
+</html>
